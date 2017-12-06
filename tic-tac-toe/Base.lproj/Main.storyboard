@@ -26,8 +26,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="Muv-GV-8JJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbJ-qg-aMO">
-                                <rect key="frame" x="187" y="333" width="0.0" height="0.0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner wins!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbJ-qg-aMO">
+                                <rect key="frame" x="57.5" y="308" width="259.5" height="50"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="43"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -42,7 +42,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dZM-gW-8Iu"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dZM-gW-8Iu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5W-ov-zc7">
@@ -55,7 +55,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ng-nM-xGG"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ng-nM-xGG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4I-DQ-5Pq">
@@ -68,7 +68,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1XK-4g-xqO"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1XK-4g-xqO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBE-h8-nuc">
@@ -82,7 +82,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0OO-Jf-GiQ"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0OO-Jf-GiQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZJ-fJ-190">
@@ -95,7 +95,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNK-id-XSz"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNK-id-XSz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNr-uu-wFq">
@@ -108,7 +108,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LrZ-fa-8WI"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LrZ-fa-8WI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfk-AU-m13">
@@ -122,7 +122,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="btC-aO-5ez"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="btC-aO-5ez"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahQ-yM-EIG">
@@ -136,7 +136,7 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2z4-ET-KPg"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2z4-ET-KPg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU5-Rj-E73">
@@ -150,14 +150,23 @@
                                     <color key="titleColor" red="0.97285088679999998" green="1" blue="0.98890088259999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPresed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dve-vU-wYr"/>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dve-vU-wYr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88A-6j-btI">
+                                <rect key="frame" x="148" y="398" width="79" height="30"/>
+                                <state key="normal" title="Play Again?"/>
+                                <connections>
+                                    <action selector="resetGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dss-8d-z7F"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="88A-6j-btI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Qx-32-RTP"/>
                             <constraint firstItem="E4I-DQ-5Pq" firstAttribute="top" secondItem="Muv-GV-8JJ" secondAttribute="bottom" constant="-128" id="0zv-cE-Dv5"/>
                             <constraint firstItem="YNr-uu-wFq" firstAttribute="top" secondItem="Pfk-AU-m13" secondAttribute="bottom" constant="173" id="90Q-Ia-voi"/>
+                            <constraint firstItem="88A-6j-btI" firstAttribute="top" secondItem="AbJ-qg-aMO" secondAttribute="bottom" constant="40" id="95q-eL-O2T"/>
                             <constraint firstItem="ahQ-yM-EIG" firstAttribute="top" secondItem="Pfk-AU-m13" secondAttribute="top" id="A0X-Ji-ZaL"/>
                             <constraint firstItem="Muv-GV-8JJ" firstAttribute="top" secondItem="Pfk-AU-m13" secondAttribute="bottom" constant="-130" id="CTo-vL-uxH"/>
                             <constraint firstItem="Muv-GV-8JJ" firstAttribute="top" secondItem="ahQ-yM-EIG" secondAttribute="bottom" constant="-130" id="Dcp-d9-77b"/>
@@ -184,6 +193,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="playAgainButton" destination="88A-6j-btI" id="xmP-VF-1Id"/>
+                        <outlet property="winnerLabel" destination="AbJ-qg-aMO" id="PQC-ep-N58"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
